@@ -957,7 +957,7 @@ section {
     margin-bottom: 0px;
 }
 .card-big-shadow:before {
-    
+    background-image: url("../src/ProjectImg/shadow.png");
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -1623,11 +1623,10 @@ a:hover, a:focus {
 .login-wrap {
   width: 100%;
   max-width: 525px;
-  min-height: 455px;
+  min-height: 530px;
   color: black;
   position: relative;
-  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  
    
 }
 .login-html {
@@ -1696,7 +1695,7 @@ a:hover, a:focus {
   border: none;
   padding: 11px 20px;
   border-radius: 25px;
-  background:#b3ffff;
+  background:#eae8f1;
 }
 .login-form .group input[data-type="password"] {
   /* text-security: circle; */
@@ -1708,9 +1707,10 @@ a:hover, a:focus {
   font-weight:700;
 }
 .login-form .group .button {
-  background: linear-gradient(to right,#ff105f,#ffad06);
-  color: black;
+  background: linear-gradient(to right,#00EDFF,#0047ab);
+  color: white;
   font-weight: 700;
+  
 }
 .login-form .group label .icon {
   width: 15px;
@@ -1801,7 +1801,14 @@ a:hover, a:focus {
  .social-links1 a:hover {
   
   text-decoration: none;
+  color: white;
 }
 
-
+.InstaColor{
+ background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );;
+}
 

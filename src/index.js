@@ -1,19 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import YouTube from './YouTube';
+import SignIn from './SignIn';
 
 
 ReactDOM.render(
     <>
 
-   
+       < SignIn/>
       
-       < YouTube/>
-      
-    
-   
-    
-    
    
     </>
     ,document.getElementById('root')
